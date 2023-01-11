@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Portfolio Website",
   "main": "index.js",
+  "homepage": "https://Ink-Jay.github.io/portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Khasamani",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "node-sass": "^8.0.0"
   }
 }
